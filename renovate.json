@@ -5,13 +5,19 @@
   ],
   "packageRules": [
     {
-      "packageNames": ["package.json"]
+      "matchPackageNames": [
+        "package.json"
+      ]
     },
     {
-      "packageNames": [".github/workflows/greetings.yml"]
+      "matchPackageNames": [
+        ".github/workflows/greetings.yml"
+      ]
     },
     {
-      "packageNames": [".github/workflows/jekyll-gh-pages.yml"]
+      "matchPackageNames": [
+        ".github/workflows/jekyll-gh-pages.yml"
+      ]
     }
   ]
 }
